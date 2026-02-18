@@ -1,28 +1,32 @@
 <script>
-    import Title          from './slides/Title.svelte';
-    import Love           from './slides/Love.svelte';
-    import GettingStarted from './slides/GettingStarted.svelte';
-    import AutoAnimate from './slides/examples/AutoAnimate.svelte';
-    import Backgrounds from './slides/examples/Backgrounds.svelte';
-    import Barebones from './slides/examples/Barebones.svelte';
-    import LayoutHelpers from './slides/examples/LayoutHelpers.svelte';
-    import Markdown from './slides/examples/Markdown.svelte';
-    import Math from './slides/examples/Math.svelte';
-    import Media from './slides/examples/Media.svelte';
-    import Transitions from './slides/examples/Transitions.svelte';
-
-    const partner = ['Svelte', 'Reveal.js'];
+    import Cover from './slides/discgolf/Cover.svelte';
+    import Disclaimer from './slides/discgolf/Disclaimer.svelte';
+    import BusinessDescription from './slides/discgolf/BusinessDescription.svelte';
+    import TargetMarket from './slides/discgolf/TargetMarket.svelte';
+    import MarketProblem from './slides/discgolf/MarketProblem.svelte';
+    import Solution from './slides/discgolf/Solution.svelte';
+    import CompetitiveAdvantages from './slides/discgolf/CompetitiveAdvantages.svelte';
+    import Traction from './slides/discgolf/Traction.svelte';
+    import ManagementTeam from './slides/discgolf/ManagementTeam.svelte';
+    import FinancialRoadmap from './slides/discgolf/FinancialRoadmap.svelte';
+    import CapitalAsk from './slides/discgolf/CapitalAsk.svelte';
+    import MarketData from './slides/discgolf/MarketData.svelte';
+    import YACContact from './slides/discgolf/YACContact.svelte';
+    import BackCover from './slides/discgolf/BackCover.svelte';
 </script>
 
-<Title/>
-<Love {partner}/>
-<GettingStarted/>
-<AutoAnimate/>
-<Backgrounds/>
-<Barebones/>
-<LayoutHelpers/>
-<Markdown/>
-<Math/>
-<Media/>
-<Transitions/>
+<Cover/>
+<Disclaimer/>
+<BusinessDescription/>
+<TargetMarket/>
+<MarketProblem/>
+<Solution/>
+<CompetitiveAdvantages/>
+<Traction/>
+<ManagementTeam/>
+<FinancialRoadmap/>
+<CapitalAsk/>
+<MarketData/>
+<YACContact/>
+<BackCover/>
 
