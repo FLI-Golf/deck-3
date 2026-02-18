@@ -18,6 +18,7 @@ export default {
     reveal: {
         plugins: [Highlight, Markdown, MathReveal.MathJax2, MathReveal.KaTeX, RevealNotes],
         hash: true,
+        pdfSeparateFragments: false,
       mathjax2: {
         config: 'TeX-AMS_HTML-full',
         TeX: {

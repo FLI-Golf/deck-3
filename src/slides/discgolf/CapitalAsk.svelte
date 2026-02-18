@@ -13,14 +13,14 @@
   <div style="max-width: 600px; margin: 20px auto 0; text-align: left;">
     <p style="font-size: 0.45em; color: #c8a951; margin-bottom: 8px;">Allocated Toward:</p>
     <ul style="font-size: 0.4em; line-height: 2; color: #ccc; list-style: none; padding: 0;">
-      <li class="fragment fade-up">&#9654; Corporate infrastructure</li>
-      <li class="fragment fade-up">&#9654; Media &amp; broadcast buildout</li>
-      <li class="fragment fade-up">&#9654; Brand launch &amp; national marketing</li>
-      <li class="fragment fade-up">&#9654; Technology development (fantasy + streaming systems)</li>
-      <li class="fragment fade-up">&#9654; Sponsorship sales team expansion</li>
-      <li class="fragment fade-up">&#9654; Course engineering &amp; venue agreements</li>
-      <li class="fragment fade-up">&#9654; Working capital reserve</li>
+      <li class="fragment fade-up" data-fragment-index="0">&#9654; Corporate infrastructure</li>
+      <li class="fragment fade-up" data-fragment-index="0">&#9654; Media &amp; broadcast buildout</li>
+      <li class="fragment fade-up" data-fragment-index="0">&#9654; Brand launch &amp; national marketing</li>
+      <li class="fragment fade-up" data-fragment-index="0">&#9654; Technology development (fantasy + streaming systems)</li>
+      <li class="fragment fade-up" data-fragment-index="0">&#9654; Sponsorship sales team expansion</li>
+      <li class="fragment fade-up" data-fragment-index="0">&#9654; Course engineering &amp; venue agreements</li>
+      <li class="fragment fade-up" data-fragment-index="0">&#9654; Working capital reserve</li>
     </ul>
   </div>
-  <p class="fragment fade-up" style="font-size: 0.42em; color: #999; margin-top: 15px; font-style: italic;">Institutional capital remains separate from event cash flow.</p>
+  <p class="fragment fade-up" data-fragment-index="0" style="font-size: 0.42em; color: #999; margin-top: 15px; font-style: italic;">Institutional capital remains separate from event cash flow.</p>
 </section>
