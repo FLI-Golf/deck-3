@@ -21,7 +21,7 @@
         <p style="color: #E8ECF4; font-size: 0.4em; line-height: 1.5;">ghearl@yacapital.com<br/>rdegowin@yacapital.com</p>
       </div>
     </div>
-    <p style="font-size: 0.5em; color: #FF6B35; margin: 15px 0; display: flex; align-items: center; justify-content: center; gap: 10px;"><span style="background: #fff; border-radius: 4px; padding: 2px 6px; display: inline-flex; align-items: center;"><img src="assets/yac.png" alt="YAC" style="height: 22px;" /></span> yacapital.com</p>
+    <p style="font-size: 0.5em; color: #FF6B35; margin: 15px 0; display: flex; align-items: center; justify-content: center; gap: 10px;"><img src="assets/yac3.jpg" alt="YAC" style="height: 22px;" /> Young America Capital &mdash; yacapital.com</p>
     <hr style="border: none; border-top: 1px solid rgba(255,107,53,0.3); width: 50%; margin: 20px auto;" />
     <div class="fly-up delay-3" style="background: rgba(255,107,53,0.06); border: 1px solid rgba(255,107,53,0.2); border-radius: 10px; padding: 20px 30px; max-width: 650px; margin: 0 auto; display: flex; align-items: center; gap: 25px;">
       <div style="text-align: left;">

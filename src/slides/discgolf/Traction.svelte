@@ -3,11 +3,11 @@
   <!-- Corner accent -->
   <div style="position: absolute; top: 0; right: 0; width: 180px; height: 180px; background: linear-gradient(225deg, rgba(255,255,255,0.06) 0%, transparent 50%); pointer-events: none;"></div>
   <!-- Watermark -->
-  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 250px; opacity: 0.025; pointer-events: none;" />
+  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 400px; opacity: 0.04; pointer-events: none; z-index: 0;" />
 
   <div style="position: relative; z-index: 1; display: flex; align-items: stretch; gap: 30px; max-width: 850px; margin: 0 auto;">
     <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; text-align: left;">
-      <img src="assets/stm-3.png" alt="Stadium" style="width: 100%; height: 200px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 10px; margin-bottom: 20px;" />
+      <img src="assets/ms.png" alt="Milestones" style="width: 100%; height: 200px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 10px; margin-bottom: 20px;" />
       <h2 class="fly-left delay-2" style="color: #fff; font-size: 0.95em; line-height: 1.2; margin: 0;">Major<br/>Milestones<br/>Completed</h2>
     </div>
     <div style="flex: 1; display: flex; align-items: center;">

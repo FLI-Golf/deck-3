@@ -12,9 +12,7 @@
       </div>
     </div>
     <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
-      <div style="width: 100%; height: 300px; background: linear-gradient(135deg, rgba(255,107,53,0.08), rgba(26,34,102,0.4)); border: 1px solid rgba(255,107,53,0.15); border-radius: 10px; display: flex; align-items: center; justify-content: center;">
-        <p style="color: rgba(255,107,53,0.3); font-size: 0.4em;">ANALYTICS IMAGE</p>
-      </div>
+      <img src="assets/da2.png" alt="Analytics" style="width: 100%; height: 300px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 10px;" />
     </div>
     <div style="flex: 1; display: flex; align-items: center;">
       <div style="text-align: left;">

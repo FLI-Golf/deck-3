@@ -18,6 +18,6 @@
 
   <!-- Bottom bar: Prepared for YAC only, bigger -->
   <div class="fade-scale delay-4" style="position: relative; z-index: 1; border-top: 1px solid rgba(255,107,53,0.25); margin: 0 20px; padding: 12px 0; display: flex; justify-content: center; align-items: center; font-size: 0.5em; color: #B8C4E0;">
-    <span style="display: inline-flex; align-items: center; gap: 12px;">Prepared for: <span style="background: #fff; border-radius: 6px; padding: 4px 10px; display: inline-flex; align-items: center;"><img src="assets/yac.png" alt="YAC" style="height: 30px;" /></span></span>
+    <span style="display: inline-flex; align-items: center; gap: 12px;">Prepared for: <img src="assets/yac3.jpg" alt="YAC" style="height: 30px;" /> Young America Capital</span>
   </div>
 </section>

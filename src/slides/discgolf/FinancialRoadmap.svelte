@@ -3,7 +3,7 @@
   <!-- Diagonal stripes -->
   <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: repeating-linear-gradient(45deg, transparent, transparent 100px, rgba(204,34,51,0.012) 100px, rgba(204,34,51,0.012) 102px); pointer-events: none;"></div>
   <!-- Watermark -->
-  <img src="assets/fliGolf_rwb.png" alt="" style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); height: 80px; opacity: 0.03; pointer-events: none;" />
+  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 400px; opacity: 0.04; pointer-events: none; z-index: 0;" />
 
   <div style="position: relative; z-index: 1;">
     <h3 class="fly-down" style="color: #FF6B35; font-size: 0.7em; letter-spacing: 0.08em;">FINANCIAL ROADMAP (5&ndash;7 YEARS)</h3>
