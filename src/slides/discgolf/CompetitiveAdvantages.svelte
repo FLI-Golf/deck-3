@@ -56,9 +56,7 @@
           <li>&#9654; Franchise expansion model</li>
         </ul>
       </div>
-      <div style="flex: 0 0 200px; height: 120px; background: linear-gradient(135deg, rgba(255,107,53,0.05), rgba(26,34,102,0.3)); border: 1px solid rgba(255,107,53,0.15); border-radius: 8px; display: flex; align-items: center; justify-content: center;">
-        <p style="color: rgba(255,107,53,0.25); font-size: 0.3em;">STADIUM IMAGE</p>
-      </div>
+      <img src="assets/stm-3.png" alt="Stadium" style="flex: 0 0 200px; height: 120px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 8px;" />
     </div>
   </div>
 </section>

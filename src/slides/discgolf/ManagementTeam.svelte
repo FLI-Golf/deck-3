@@ -2,8 +2,8 @@
 <section data-transition="zoom-in fade-out" data-background-color="#3548A0" class="sports-topbar sports-glow-center">
   <!-- Diagonal stripes -->
   <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: repeating-linear-gradient(-45deg, transparent, transparent 100px, rgba(204,34,51,0.015) 100px, rgba(204,34,51,0.015) 102px); pointer-events: none;"></div>
-  <!-- Ghosted watermark - right side -->
-  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; right: 30px; transform: translateY(-50%); height: 250px; opacity: 0.04; pointer-events: none;" />
+  <!-- Ghosted watermark - centered, large -->
+  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 400px; opacity: 0.04; pointer-events: none; z-index: 0;" />
 
   <div style="position: relative; z-index: 1;">
     <h3 class="fly-down" style="color: #fff; font-size: 0.9em; letter-spacing: 0.1em; margin-bottom: 8px;">MEET OUR TEAM</h3>

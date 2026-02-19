@@ -1,7 +1,7 @@
 <!-- SLIDE 2 — FINRA / SEC DISCLAIMER -->
 <section data-transition="slide" data-background-color="#2E3C8C" class="sports-stripes sports-sideline-r">
-  <!-- Watermark -->
-  <img src="assets/fli_logo.png" alt="" style="position: absolute; bottom: 20px; right: 20px; height: 100px; opacity: 0.04; pointer-events: none;" />
+  <!-- Watermark - centered, large -->
+  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 400px; opacity: 0.04; pointer-events: none; z-index: 0;" />
   <div style="display: flex; height: 100%; align-items: stretch; position: relative; z-index: 1;">
     <div style="flex: 1; padding: 30px 40px; text-align: left;">
       <div class="fly-left" style="display: flex; align-items: center; gap: 20px; margin-bottom: 25px;">
