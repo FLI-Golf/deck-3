@@ -1,30 +1,40 @@
-<!-- SLIDE 3 — BUSINESS DESCRIPTION & MISSION: vertical stack (from Transitions.svelte nested sections) -->
-<section>
-  <section data-transition="zoom" data-background-color="#0d1b2a">
-    <img src="assets/fliGolf_rwb.png" alt="FLI Golf" style="height: 140px; margin: 0 auto 10px; display: block;" />
-    <h3 style="color: #c8a951; font-size: 0.7em; letter-spacing: 0.08em;">BUSINESS DESCRIPTION &amp; MISSION</h3>
-    <h2 style="margin-top: 15px;">What is FLI Golf League?</h2>
-    <p style="font-size: 0.55em; color: #aaa; max-width: 700px; margin: 15px auto 0;">FLI Golf League (FGL) is a stadium-style professional disc golf league engineered for:</p>
-    <div class="r-hstack" style="margin-top: 25px;">
-      <div class="fragment fade-up" data-fragment-index="0" style="padding: 0.4em 0.7em; background: rgba(200,169,81,0.15); border: 1px solid #c8a951; margin: 0.2em; border-radius: 6px; font-size: 0.5em; color: #c8a951;">Broadcast Clarity</div>
-      <div class="fragment fade-up" data-fragment-index="0" style="padding: 0.4em 0.7em; background: rgba(200,169,81,0.15); border: 1px solid #c8a951; margin: 0.2em; border-radius: 6px; font-size: 0.5em; color: #c8a951;">Premium Fan Experience</div>
-      <div class="fragment fade-up" data-fragment-index="0" style="padding: 0.4em 0.7em; background: rgba(200,169,81,0.15); border: 1px solid #c8a951; margin: 0.2em; border-radius: 6px; font-size: 0.5em; color: #c8a951;">Sponsorship Scalability</div>
-      <div class="fragment fade-up" data-fragment-index="0" style="padding: 0.4em 0.7em; background: rgba(200,169,81,0.15); border: 1px solid #c8a951; margin: 0.2em; border-radius: 6px; font-size: 0.5em; color: #c8a951;">Franchise Expansion</div>
+<!-- SLIDE 4 — BUSINESS DESCRIPTION & MISSION -->
+<section data-transition="convex" data-background-color="#0d2147" class="sports-topbar sports-accent-tr sports-glow-bl">
+  <!-- Watermark shields -->
+  <img src="assets/fliGolf_rwb.png" alt="" style="position: absolute; top: 15px; left: 15px; height: 45px; opacity: 0.08; pointer-events: none;" />
+  <img src="assets/fliGolf_rwb.png" alt="" style="position: absolute; top: 15px; right: 15px; height: 45px; opacity: 0.08; pointer-events: none;" />
+  <!-- Diagonal accent -->
+  <div style="position: absolute; top: 0; right: 0; width: 300px; height: 300px; background: linear-gradient(225deg, rgba(200,169,81,0.06) 0%, transparent 40%); pointer-events: none;"></div>
+
+  <div style="position: relative; z-index: 1;">
+    <div style="display: flex; align-items: flex-start; gap: 10px; margin-bottom: 5px; justify-content: center;">
+      <img src="assets/fliGolf_rwb.png" alt="FGL" style="height: 50px;" />
+      <h3 style="color: #fff; font-size: 0.75em; letter-spacing: 0.06em; margin: 8px 0 0;">Welcome to the FLI Golf League</h3>
+      <img src="assets/fliGolf_rwb.png" alt="FGL" style="height: 50px;" />
     </div>
-    <p style="font-size: 0.5em; color: #666; margin-top: 30px;">&#8595; Navigate down for Year 1 Structure &amp; Mission</p>
-  </section>
-  <section data-transition="concave" data-background-color="#0d1b2a">
-    <h3 style="color: #c8a951; font-size: 0.7em;">YEAR 1 STRUCTURE</h3>
-    <ul style="font-size: 0.55em; line-height: 2; list-style: none; padding: 0;">
-      <li class="fragment fade-up" data-fragment-index="0">&#9654; 6 professional tournaments</li>
-      <li class="fragment fade-up" data-fragment-index="0">&#9654; All hosted at one flagship venue</li>
-      <li class="fragment fade-up" data-fragment-index="0">&#9654; Fully constructed stadium course</li>
-      <li class="fragment fade-up" data-fragment-index="0">&#9654; Equal payout model</li>
-      <li class="fragment fade-up" data-fragment-index="0">&#9654; Broadcast-ready production</li>
-    </ul>
-  </section>
-  <section data-transition="concave" data-background-color="#0d1b2a">
-    <h3 style="color: #c8a951; font-size: 0.7em;">MISSION</h3>
-    <p style="font-size: 0.6em; max-width: 700px; margin: 30px auto 0; line-height: 1.7; color: #ddd;">To institutionalize disc golf into a structured, media-driven professional sports property built for long-term capital growth.</p>
-  </section>
+    <p style="color: #c8a951; font-size: 0.5em; margin: 10px 0 20px; letter-spacing: 0.04em;">FLI Golf League (FGL) is a stadium-style professional disc golf league engineered for:</p>
+    <div style="display: flex; justify-content: center; gap: 30px; max-width: 850px; margin: 0 auto;">
+      <div style="flex: 1; text-align: left;">
+        <ul style="font-size: 0.45em; line-height: 2.2; color: #ccd4e0; list-style: none; padding: 0;">
+          <li>&#9654; Broadcast clarity</li>
+          <li>&#9654; Premium fan experience</li>
+          <li>&#9654; Sponsorship scalability</li>
+          <li>&#9654; Franchise expansion</li>
+        </ul>
+      </div>
+      <div style="flex: 1; text-align: left; border-left: 1px solid rgba(200,169,81,0.3); padding-left: 30px;">
+        <ul style="font-size: 0.45em; line-height: 2.2; color: #ccd4e0; list-style: none; padding: 0;">
+          <li>&#9654; 6 professional tournaments</li>
+          <li>&#9654; All hosted at one flagship venue</li>
+          <li>&#9654; Fully constructed stadium course</li>
+          <li>&#9654; Gender equal payout model</li>
+          <li>&#9654; Broadcast-ready production</li>
+        </ul>
+      </div>
+    </div>
+    <div style="margin-top: 25px; border-top: 1px solid rgba(200,169,81,0.3); padding-top: 15px; max-width: 700px; margin-left: auto; margin-right: auto;">
+      <h4 style="color: #c8a951; font-size: 0.55em; margin-bottom: 8px;">FGL MISSION</h4>
+      <p style="font-size: 0.48em; color: #ccd4e0; line-height: 1.6;">To institutionalize disc golf into a structured, media-driven professional sports property built for long-term capital growth.</p>
+    </div>
+  </div>
 </section>
