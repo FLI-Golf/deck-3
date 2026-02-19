@@ -9,10 +9,10 @@ import 'reveal.js/dist/theme/black.css';
 // Override theme background to deep blue
 const style = document.createElement('style');
 style.textContent = `
-  :root { --r-background-color: #0a1628 !important; }
-  .reveal { background: #0a1628 !important; background-color: #0a1628 !important; }
-  body { background: #0a1628 !important; }
-  .reveal .slide-background { background-color: #0a1628 !important; }
+  :root { --r-background-color: #1a2266 !important; }
+  .reveal { background: #1a2266 !important; background-color: #1a2266 !important; }
+  body { background: #1a2266 !important; }
+  .reveal .slide-background { background-color: #1a2266 !important; }
   .reveal .slides { background: transparent; }
 `;
 document.head.appendChild(style);
@@ -29,7 +29,7 @@ export default {
     reveal: {
         plugins: [Highlight, Markdown, MathReveal.MathJax2, MathReveal.KaTeX, RevealNotes],
         hash: true,
-        backgroundColor: '#0a1628',
+        backgroundColor: '#1a2266',
         transition: 'slide',
         transitionSpeed: 'default',
         backgroundTransition: 'fade',
