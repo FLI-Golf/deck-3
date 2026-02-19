@@ -3,7 +3,7 @@
   <!-- Diagonal accent -->
   <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: repeating-linear-gradient(45deg, transparent, transparent 120px, rgba(204,34,51,0.012) 120px, rgba(204,34,51,0.012) 122px); pointer-events: none;"></div>
   <!-- Watermark -->
-  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; right: 30px; transform: translateY(-50%); height: 150px; opacity: 0.03; pointer-events: none;" />
+  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 400px; opacity: 0.04; pointer-events: none; z-index: 0;" />
 
   <div style="position: relative; z-index: 1;">
     <h3 class="fly-down" style="color: #fff; font-size: 0.8em; letter-spacing: 0.08em; margin-bottom: 15px;">FGL IS BUILT DIFFERENT</h3>
@@ -56,7 +56,7 @@
           <li>&#9654; Franchise expansion model</li>
         </ul>
       </div>
-      <img src="assets/stm-3.png" alt="Stadium" style="flex: 0 0 200px; height: 120px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 8px;" />
+      <img src="assets/ci.png" alt="Competitive advantage" style="flex: 0 0 200px; height: 120px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 8px;" />
     </div>
   </div>
 </section>

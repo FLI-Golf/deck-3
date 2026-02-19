@@ -4,14 +4,14 @@
   <div style="position: absolute; top: 0; left: 0; width: 200px; height: 200px; background: linear-gradient(135deg, rgba(255,107,53,0.08) 0%, transparent 50%); pointer-events: none;"></div>
   <div style="position: absolute; bottom: 0; right: 0; width: 200px; height: 200px; background: linear-gradient(315deg, rgba(255,107,53,0.08) 0%, transparent 50%); pointer-events: none;"></div>
   <!-- Watermark -->
-  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 300px; opacity: 0.025; pointer-events: none;" />
+  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 400px; opacity: 0.04; pointer-events: none; z-index: 0;" />
 
   <div style="position: relative; z-index: 1;">
     <h3 class="fly-down" style="color: #FF6B35; font-size: 0.7em; letter-spacing: 0.08em;">CAPITAL ASK &amp; USE OF PROCEEDS</h3>
     <p class="pop-in delay-1" style="font-size: 2em; color: #FF6B35; margin-top: 20px; letter-spacing: 0.05em;">$5,000,000</p>
     <p style="font-size: 0.5em; color: #B8C4E0;">Round 1 &mdash; Infrastructure &amp; Launch Capital</p>
     <div style="background: rgba(204,17,51,0.08); border: 1px solid rgba(204,17,51,0.3); border-radius: 6px; padding: 10px 20px; max-width: 550px; margin: 15px auto;">
-      <p style="font-size: 0.42em; color: #CC1133; margin: 0;">This capital does NOT fund event operating expenses.</p>
+      <p style="font-size: 0.45em; color: #FF4466; font-weight: 700; margin: 0;">This capital does <span style="text-decoration: underline;">NOT</span> fund event operating expenses.</p>
     </div>
     <div class="fly-up delay-3" style="max-width: 600px; margin: 20px auto 0; text-align: left;">
       <p style="font-size: 0.45em; color: #FF6B35; margin-bottom: 8px;">Allocated Toward:</p>

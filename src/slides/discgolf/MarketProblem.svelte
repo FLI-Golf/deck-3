@@ -9,7 +9,7 @@
     <div style="flex: 1; text-align: left; display: flex; flex-direction: column; justify-content: center;">
       <h2 class="fly-left" style="color: #fff; font-size: 1em; line-height: 1.2; margin: 0;">Current<br/>Limitations<br/>in Disc Golf</h2>
       <p style="font-size: 0.45em; color: #FF6B35; margin-top: 20px; font-style: italic; line-height: 1.5;">The sport has increased participation growth but it lacks institutional league infrastructure</p>
-      <img src="assets/stm-1.png" alt="Stadium course" style="width: 100%; height: 120px; margin-top: 15px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 8px;" />
+      <img src="assets/wa.png" alt="Disc golf course" style="width: 100%; height: 120px; margin-top: 15px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 8px;" />
     </div>
     <div class="fly-right delay-2" style="flex: 1; background: rgba(204,17,51,0.06); border: 1px solid rgba(204,17,51,0.2); border-radius: 10px; padding: 20px 25px; text-align: left;">
       <ul style="font-size: 0.42em; line-height: 2.2; color: #dde0e6; list-style: none; padding: 0; margin: 0;">

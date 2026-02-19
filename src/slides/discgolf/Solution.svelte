@@ -18,7 +18,7 @@
           <li>&#9654; Greatest collection of world ranked players</li>
           <li>&#9654; Full fantasy and gaming integration</li>
         </ul>
-        <img src="assets/pi.png" alt="Player" style="width: 100%; height: 80px; margin-top: 10px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 6px;" />
+        <img src="assets/p1_1.png" alt="Player" style="width: 100%; height: 80px; margin-top: 10px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 6px;" />
       </div>
       <div class="fly-right delay-2" style="flex: 1; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; padding: 18px 20px;">
         <h4 style="color: #FF6B35; font-size: 0.55em; margin-bottom: 12px;">STADIUM-STYLE ENGINEERED COURSE</h4>
@@ -29,7 +29,7 @@
           <li>&#9654; Netting for fan safety</li>
           <li>&#9654; Controlled lighting + production setup</li>
         </ul>
-        <img src="assets/stm-3.png" alt="Stadium" style="width: 100%; height: 80px; margin-top: 10px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 6px;" />
+        <img src="assets/stm-4.png" alt="Stadium" style="width: 100%; height: 80px; margin-top: 10px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 6px;" />
       </div>
     </div>
   </div>
