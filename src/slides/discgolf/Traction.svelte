@@ -7,9 +7,7 @@
 
   <div style="position: relative; z-index: 1; display: flex; align-items: stretch; gap: 30px; max-width: 850px; margin: 0 auto;">
     <div style="flex: 1; display: flex; flex-direction: column; justify-content: center; text-align: left;">
-      <div style="width: 100%; height: 200px; background: linear-gradient(135deg, rgba(255,107,53,0.08), rgba(26,34,102,0.4)); border: 1px solid rgba(255,107,53,0.15); border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
-        <p style="color: rgba(255,107,53,0.3); font-size: 0.4em;">STADIUM IMAGE</p>
-      </div>
+      <img src="assets/stm-3.png" alt="Stadium" style="width: 100%; height: 200px; object-fit: cover; border: 1px solid rgba(255,107,53,0.15); border-radius: 10px; margin-bottom: 20px;" />
       <h2 class="fly-left delay-2" style="color: #fff; font-size: 0.95em; line-height: 1.2; margin: 0;">Major<br/>Milestones<br/>Completed</h2>
     </div>
     <div style="flex: 1; display: flex; align-items: center;">

@@ -1,8 +1,7 @@
 <!-- SLIDE 4 — BUSINESS DESCRIPTION & MISSION -->
 <section data-transition="convex" data-background-color="#3548A0" class="sports-topbar sports-accent-tr sports-glow-bl">
-  <!-- Watermark shields -->
-  <img src="assets/fliGolf_rwb.png" alt="" style="position: absolute; top: 15px; left: 15px; height: 45px; opacity: 0.08; pointer-events: none;" />
-  <img src="assets/fliGolf_rwb.png" alt="" style="position: absolute; top: 15px; right: 15px; height: 45px; opacity: 0.08; pointer-events: none;" />
+  <!-- Watermark - centered, large -->
+  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 400px; opacity: 0.04; pointer-events: none; z-index: 0;" />
   <!-- Diagonal accent -->
   <div style="position: absolute; top: 0; right: 0; width: 300px; height: 300px; background: linear-gradient(225deg, rgba(255,107,53,0.06) 0%, transparent 40%); pointer-events: none;"></div>
 

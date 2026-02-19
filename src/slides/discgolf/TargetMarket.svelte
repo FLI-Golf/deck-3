@@ -2,8 +2,8 @@
 <section data-transition="slide-in fade-out" data-background-color="#1a2266" class="sports-topbar sports-stripes sports-sideline-l sports-sideline-r">
   <!-- Glow -->
   <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(ellipse at 50% 30%, rgba(255,107,53,0.05) 0%, transparent 55%); pointer-events: none;"></div>
-  <!-- Watermark -->
-  <img src="assets/fliGolf_rwb.png" alt="" style="position: absolute; bottom: 30px; right: 30px; height: 80px; opacity: 0.04; pointer-events: none;" />
+  <!-- Watermark - centered, large -->
+  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); height: 400px; opacity: 0.04; pointer-events: none; z-index: 0;" />
 
   <div style="position: relative; z-index: 1;">
     <h3 class="fly-down" style="color: #fff; font-size: 0.85em; letter-spacing: 0.08em; margin-bottom: 5px;">Global Overview</h3>
