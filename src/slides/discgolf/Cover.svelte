@@ -1,19 +1,21 @@
-<!-- SLIDE 1 — COVER: auto-animate entrance (from AutoAnimate.svelte) -->
-<section data-auto-animate data-auto-animate-unmatched="fade" data-background-color="#0a0a0a">
-  <img data-id="fli-logo" src="assets/fliGolf_rwb.png" alt="FLI Golf League" style="height: 120px; margin: 0 auto 20px; display: block;" />
-  <h1 data-id="logo" style="font-size: 1.2em; letter-spacing: 0.15em; color: #c8a951;">FLI GOLF LEAGUE</h1>
-</section>
-<section data-auto-animate data-auto-animate-unmatched="fade" data-background-color="#0a0a0a">
-  <img data-id="fli-logo" src="assets/fliGolf_rwb.png" alt="FLI Golf League" style="height: 140px; margin: 0 auto 10px; display: block;" />
-  <h1 data-id="logo" style="font-size: 1.8em; letter-spacing: 0.2em; color: #c8a951; margin: 0;">FLI GOLF LEAGUE</h1>
-  <p style="color: #ccc; font-size: 0.6em; margin-top: 6px; letter-spacing: 0.1em;">Stadium-Style Professional Disc Golf</p>
-  <p class="fragment fade-up" data-fragment-index="0" style="color: #999; font-size: 0.5em; margin-top: 15px; margin-bottom: 2px;">Infrastructure-First Launch Strategy</p>
-  <p class="fragment fade-up" data-fragment-index="0" style="color: #999; font-size: 0.5em; margin-top: 2px;">Single Flagship Venue &mdash; Controlled Season Model</p>
-  <hr class="fragment fade-up" data-fragment-index="0" style="border: none; border-top: 1px solid #333; width: 40%; margin: 15px auto;" />
-  <div class="fragment fade-up" data-fragment-index="1" style="background: #fff; border-radius: 6px; display: inline-block; padding: 3px 8px; margin: 0 auto 6px;">
-    <img src="assets/yac.png" alt="Young America Capital" style="height: 50px; display: block;" />
+<!-- SLIDE 1 — COVER -->
+<section data-transition="zoom" data-background-color="#0a1628" class="sports-topbar sports-bottombar">
+  <!-- Large ghosted shield - centered -->
+  <img src="assets/fli_logo.png" alt="" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -55%); height: 500px; opacity: 0.06; pointer-events: none; z-index: 0;" />
+  <!-- Corner accents -->
+  <div style="position: absolute; top: 0; right: 0; width: 200px; height: 200px; background: linear-gradient(225deg, rgba(200,169,81,0.1) 0%, transparent 50%); pointer-events: none;"></div>
+  <div style="position: absolute; bottom: 50px; left: 0; width: 150px; height: 150px; background: linear-gradient(45deg, rgba(200,169,81,0.06) 0%, transparent 50%); pointer-events: none;"></div>
+
+  <!-- Centered content -->
+  <div style="position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 480px;">
+    <h1 style="font-size: 2.6em; letter-spacing: 0.12em; color: #fff; margin: 0; line-height: 1.15; text-align: center;">FLI GOLF<br/>LEAGUE</h1>
+    <img src="assets/fliGolf_rwb.png" alt="FGL Shield" style="height: 130px; margin: 25px 0;" />
+    <p style="color: #c8a951; font-size: 0.55em; letter-spacing: 0.1em; margin: 0; text-align: center;">STADIUM-STYLE PROFESSIONAL DISC GOLF</p>
   </div>
-  <p class="fragment fade-up" data-fragment-index="1" style="color: #777; font-size: 0.42em; margin-bottom: 2px;">Prepared for: <strong style="color: #aaa;">Young America Capital</strong></p>
-  <p class="fragment fade-up" data-fragment-index="1" style="color: #777; font-size: 0.42em; margin-top: 2px;">February 2026</p>
-  <p class="fragment fade-up" data-fragment-index="1" style="color: #c8a951; font-size: 0.45em; margin-top: 8px;"><strong>Andrew Panza</strong><br/><span style="color: #999;">Founder &amp; CEO</span></p>
+
+  <!-- Bottom bar -->
+  <div style="position: relative; z-index: 1; border-top: 1px solid rgba(200,169,81,0.25); margin: 0 20px; padding: 10px 0; display: flex; justify-content: center; align-items: center; gap: 40px; font-size: 0.4em; color: #8899bb;">
+    <span style="display: inline-flex; align-items: center; gap: 8px;">Prepared for: <span style="background: #fff; border-radius: 4px; padding: 2px 6px; display: inline-flex; align-items: center;"><img src="assets/yac.png" alt="YAC" style="height: 20px;" /></span></span>
+    <span>Presented by <strong style="color: #c8a951;">FG Sports &amp; Media Group Inc.</strong></span>
+  </div>
 </section>

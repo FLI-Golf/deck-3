@@ -2,10 +2,121 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+  background: #0a1628 !important;
+}
+
 #app {
   width: 100%;
   margin: 0 auto;
   text-align: center;
   height: 100vh;
+}
+
+/* Gold border frame on every slide - double border effect */
+.reveal .slides section {
+  border: 2px solid rgba(200,169,81,0.18);
+  box-shadow:
+    inset 0 0 0 6px rgba(10,22,40,0.8),
+    inset 0 0 0 7px rgba(200,169,81,0.1);
+}
+
+/* Sports-themed background graphics */
+
+/* Corner accent - top-right gold triangle */
+.sports-accent-tr::before {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  width: 120px; height: 120px;
+  background: linear-gradient(225deg, rgba(200,169,81,0.12) 0%, transparent 60%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Corner accent - bottom-left gold triangle */
+.sports-accent-bl::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 120px; height: 120px;
+  background: linear-gradient(45deg, rgba(200,169,81,0.1) 0%, transparent 60%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Diagonal stripe overlay */
+.sports-stripes::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 80px,
+    rgba(200,169,81,0.02) 80px,
+    rgba(200,169,81,0.02) 82px
+  );
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Top gold bar - broadcast style */
+.sports-topbar::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent 10%, #c8a951 30%, #c8a951 70%, transparent 90%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Bottom gold bar */
+.sports-bottombar::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent 10%, #c8a951 30%, #c8a951 70%, transparent 90%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Side accent line - left */
+.sports-sideline-l::before {
+  content: '';
+  position: absolute;
+  top: 15%; left: 0;
+  width: 3px; height: 70%;
+  background: linear-gradient(180deg, transparent, rgba(200,169,81,0.3), transparent);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Side accent line - right */
+.sports-sideline-r::after {
+  content: '';
+  position: absolute;
+  top: 15%; right: 0;
+  width: 3px; height: 70%;
+  background: linear-gradient(180deg, transparent, rgba(200,169,81,0.3), transparent);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Radial glow - center */
+.sports-glow-center {
+  background-image: radial-gradient(ellipse at 50% 40%, rgba(200,169,81,0.06) 0%, transparent 60%) !important;
+}
+
+/* Radial glow - top right */
+.sports-glow-tr {
+  background-image: radial-gradient(ellipse at 85% 15%, rgba(200,169,81,0.08) 0%, transparent 50%) !important;
+}
+
+/* Radial glow - bottom left */
+.sports-glow-bl {
+  background-image: radial-gradient(ellipse at 15% 85%, rgba(200,169,81,0.06) 0%, transparent 50%) !important;
 }
 
